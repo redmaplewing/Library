@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.au-audio{
+	background-color:#FFFFFF;
+	border-radius:5px;	
+	width:180px;
+	height:30px;
+	opacity:0.8;
+	-webkit-box-shadow:0 2px 6px rgba(0, 0, 0, 0.5);
+	position:relative;
+	margin-bottom:60px;
+	border-right-style:outset;
+	border-bottom-style:outset;
+	border-width:1px;
+	border-color:#999999;
+}
+.au-icon{
+	width:25px;
+	height:25px;
+	opacity:0.8;
+	cursor:pointer;
+	position:absolute;
+	top:2px;
+	left:10px;			
+}
+.au-play{
+	background:url(../images/start.png) no-repeat;	
+}
+.au-pause{
+	background:url(../images/pause.png) no-repeat;		
+}
+.au-volume{
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	display:table;
+	float:left;
+}
+.au-on{
+	background:url(../images/volumeOn.png) no-repeat;			
+}
+.au-off{
+	background:url(../images/volumeOff.png) no-repeat;			
+}
+#au-slider{
+	width:105px;
+	display:table;
+	margin-top:2px;
+	padding:0px;
+}
+.au-audio #au-rightArea{
+	position:absolute;
+	top:2px;
+	right:5px;
+	width:132px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-focus, .ui-state-hover, .ui-state-active, .ui-slider-handle, #volume .ui-state-focus{
+	background:#666666;
+	top:-6px;
+	margin-left:0px;
+}
+/*#volume .ui-state-focus, #volume .ui-state-hover, #volume .ui-state-active{
+	display:block;
+}*/
+#au-volume{
+	width:100px;
+	height:5px;	
+	margin-left:5px;
+	margin-top:6px;
+	cursor:pointer;
+}
+#au-volume a{
+	display:none;
+}
+
+#au-volumeBar{
+	background-color:#666666;
+	height:5px;
+	width:100%;	
+}
